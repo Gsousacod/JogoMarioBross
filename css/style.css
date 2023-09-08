@@ -16,7 +16,10 @@
     position: absolute;
     bottom: 0;
     width: 80px;
-    animation: pipe-animation 2s infinite linear;
+   
+}
+.animation-pipe{
+    animation: pipe-animation 2s infinite ease-out;
 }
 .mario{
     width: 150px;
@@ -61,7 +64,7 @@
     top: 40%;
     position: absolute;
     z-index: 20;
-    display: block;
+    display: none;
 }
 #game-over-game h2, p,button{
     padding: 10px;
